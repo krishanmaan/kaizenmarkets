@@ -10,6 +10,10 @@ import ic1 from "../../../public/img/icon/Register.png";
 import ic2 from "../../../public/img/icon/add fund.png";
 import ic3 from "../../../public/img/icon/doller.png";
 
+import { FaLaptop } from "react-icons/fa";
+import { AiFillDollarCircle } from "react-icons/ai";
+import { MdOutlineSupportAgent } from "react-icons/md";
+
 const Hero: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -50,23 +54,24 @@ const Hero: React.FC = () => {
   return (
     <div className="">
       {/* Hero Section */}
-      <section className="relative bg-gradient-custom">
-        <Navbar />
-        <div className="relative w-full h-[300px] overflow-hidden">
+      <section className="relative bg-gradient-custom  ">
+        
+        <Navbar  />
+        <div className="relative w-full h-[600px] overflow-hidden flex justify-center items-center ">
           {/* Background Slider */}
           <div className="absolute inset-0 flex transition-transform duration-1000 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
             {slides.map((slide, index) => (
-              <div key={index} className="w-full h-[300px] relative flex-shrink-0">
+              <div key={index} className="w-full h-[600px] relative flex-shrink-0">
                 <Image src={slide.image} alt={`Slide ${index + 1}`} layout="fill" objectFit="cover" />
               </div>
             ))}
           </div>
 
           {/* Content on Top of Slider */}
-          <div className="absolute inset-0 flex items-center pl-16">
+          <div className="absolute inset-0 flex items-center pl-28">
             <div className=" text-white">
-              <h1 className="text-2xl font-bold">{slides[currentSlide].heading}</h1>
-              <p className="text-xs text-gray-200 mb-6">{slides[currentSlide].description}</p>
+              <h1 className="text-4xl font-bold">{slides[currentSlide].heading}</h1>
+              <p className="text-lg text-gray-200 mb-4 mt-2">{slides[currentSlide].description}</p>
               <a href="https://office.kaizenmarkets.com/trader/registration">
                 <button className="bg-[#FE7501] border-2 border-[#FE7501] text-white px-4 py-2 hover:bg-purple-600 transition duration-200">
                   Get Started
@@ -91,7 +96,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* "How Will it Work?" Section */}
-        <div className="box-border font-urbanist mx-auto w-full outline-none max-w-[1480px] text-[14px]/[22.4px]">
+        <div className="box-border font-urbanist mx-auto w-full outline-none max-w-[1480px] text-[14px]/[22.4px] mt-10">
           <div className="box-border font-urbanist text-center outline-none">
             <h3 className="mb-8 font-bold mt-0 font-urbanist leading-[1.2] text-[calc(1.425rem+2.1vw)]">
               How Will it Work?
@@ -100,13 +105,7 @@ const Hero: React.FC = () => {
           <div className="box-border font-urbanist flex flex-wrap mt-[-0] outline-none">
             <div className="box-border font-urbanist max-w-full mt-0 shrink-0 w-[33.3333%] outline-none flex">
               <div className="box-border font-urbanist flex flex-col items-center w-full outline-none">
-                <Image
-                  src={ic1.src}
-                  alt="Forex Illustration"
-                  className="max-w-full h-auto"
-                  width={100}
-                  height={100}
-                />
+              <FaLaptop  className="h-24 w-24 text-[#FE7501]"/>
                 <p className="font-bold text-lg mb-4 leading-[1.75rem]">
                   1:500
                 </p>
@@ -119,13 +118,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="box-border font-urbanist max-w-full mt-0 shrink-0 w-[33.3333%] outline-none flex">
               <div className="box-border font-urbanist flex flex-col items-center w-full outline-none">
-                <Image
-                  src={ic3.src}
-                  alt="Forex Illustration"
-                  className="max-w-full h-auto"
-                  width={100}
-                  height={100}
-                />
+              <AiFillDollarCircle  className="h-24 w-24 text-[#FE7501]"/>
                 <p className="font-bold text-lg mb-4 leading-[1.75rem]">
                   $50
                 </p>
@@ -138,13 +131,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="box-border font-urbanist max-w-full mt-0 shrink-0 w-[33.3333%] outline-none flex">
               <div className="box-border font-urbanist flex flex-col items-center w-full outline-none">
-                <Image
-                  src={ic2.src}
-                  alt="Forex Illustration"
-                  className="max-w-full h-auto"
-                  width={100}
-                  height={100}
-                />
+              <MdOutlineSupportAgent className="h-24 w-24 text-[#FE7501]"/>
                 <p className="font-bold text-lg mb-4 leading-[1.75rem]">
                   24/7
                 </p>
