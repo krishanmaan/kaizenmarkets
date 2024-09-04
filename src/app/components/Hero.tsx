@@ -1,14 +1,14 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
-import Navbar from './Navbar';
-import slider1 from '../../../public/img/bg/slider1.jpg';
-import slider2 from '../../../public/img/bg/slider2.jpg';
-import slider3 from '../../../public/img/bg/slider3.jpg';
-import ic1 from '../../../public/img/icon/Register.png';
-import ic2 from '../../../public/img/icon/add fund.png';
-import ic3 from '../../../public/img/icon/doller.png';
+import React, { useState, useEffect } from "react";
+import Image from "next/image";
+import Navbar from "./Navbar";
+import slider1 from "../../../public/img/bg/slider1.jpg";
+import slider2 from "../../../public/img/bg/slider2.jpg";
+import slider3 from "../../../public/img/bg/slider3.jpg";
+import ic1 from "../../../public/img/icon/Register.png";
+import ic2 from "../../../public/img/icon/add fund.png";
+import ic3 from "../../../public/img/icon/doller.png";
 
 const Hero: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -16,18 +16,18 @@ const Hero: React.FC = () => {
   const slides = [
     {
       image: slider1,
-      heading: 'Trade Smarter With Kaizen Markets',
-      description: 'Unlock smarter Forex trading strategies with Kaizen Markets for optimal results.',
+      heading: "Trade Smarter With Kaizen Markets",
+      description: "Unlock smarter Forex trading strategies with Kaizen Markets for optimal results.",
     },
     {
       image: slider2,
-      heading: 'Fastest way to Investing & Trading In Forex',
-      description: 'Experience rapid Forex trading and investing with the fastest platform available.',
+      heading: "Fastest way to Investing & Trading In Forex",
+      description: "Experience rapid Forex trading and investing with the fastest platform available.",
     },
     {
       image: slider3,
-      heading: 'Join the Forex Revolution',
-      description: 'Be part of the Forex revolution—innovative trading solutions await you.',
+      heading: "Join the Forex Revolution",
+      description: "Be part of the Forex revolution—innovative trading solutions await you.",
     },
   ];
 
@@ -54,55 +54,36 @@ const Hero: React.FC = () => {
         <Navbar />
         <div className="relative w-full h-[300px] overflow-hidden">
           {/* Background Slider */}
-          <div className="absolute inset-0">
-            <div
-              className="whitespace-nowrap transition-transform duration-1000 ease-in-out"
-              style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-            >
-              {slides.map((slide, index) => (
-                <div
-                  key={index}
-                  className="inline-block w-full h-[300px] relative"
-                >
-                  <Image
-                    src={slide.image}
-                    alt={`Slide ${index + 1}`}
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-              ))}
-            </div>
+          <div className="absolute inset-0 flex transition-transform duration-1000 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+            {slides.map((slide, index) => (
+              <div key={index} className="w-full h-[300px] relative flex-shrink-0">
+                <Image src={slide.image} alt={`Slide ${index + 1}`} layout="fill" objectFit="cover" />
+              </div>
+            ))}
           </div>
 
           {/* Content on Top of Slider */}
-          <div className="relative z-10 flex items-center justify-center h-full">
-            <div className="max-w-screen-xl mx-auto px-4 py-16 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div>
-                <h1 className="text-2xl font-bold text-white font-Poppins">
-                  {slides[currentSlide].heading}
-                </h1>
-                <p className="text-xs text-gray-200 mb-6 font-Inter18">
-                  {slides[currentSlide].description}
-                </p>
-                <a href="https://office.kaizenmarkets.com/trader/registration">
-                  <button className="bg-[#FE7501] font-Poppins border-2 hover:border-black border-[#FE7501] text-white px-4 py-2 hover:bg-purple-600 transition duration-200">
-                    Get Started
-                  </button>
-                </a>
-              </div>
+          <div className="absolute inset-0 flex items-center pl-16">
+            <div className=" text-white">
+              <h1 className="text-2xl font-bold">{slides[currentSlide].heading}</h1>
+              <p className="text-xs text-gray-200 mb-6">{slides[currentSlide].description}</p>
+              <a href="https://office.kaizenmarkets.com/trader/registration">
+                <button className="bg-[#FE7501] border-2 border-[#FE7501] text-white px-4 py-2 hover:bg-purple-600 transition duration-200">
+                  Get Started
+                </button>
+              </a>
             </div>
           </div>
 
           {/* Left and Right Buttons */}
           <button
-            className="absolute left-4  top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full z-20"
             onClick={handlePrevSlide}
           >
             &lt;
           </button>
           <button
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full z-20"
             onClick={handleNextSlide}
           >
             &gt;
