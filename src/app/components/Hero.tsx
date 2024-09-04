@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
       <section className="relative bg-gradient-custom  ">
         
         <Navbar  />
-        <div className="relative w-full h-[600px] overflow-hidden flex justify-center items-center ">
+        <div className="relative w-full h-[600px] overflow-hidden flex justify-center items-center max-w-s ">
           {/* Background Slider */}
           <div className="absolute inset-0 flex transition-transform duration-1000 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
             {slides.map((slide, index) => (
@@ -68,12 +68,12 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Content on Top of Slider */}
-          <div className="absolute inset-0 flex items-center pl-28">
+          <div className="absolute inset-0 flex items-center pl-28 ">
             <div className=" text-white">
               <h1 className="text-4xl font-bold">{slides[currentSlide].heading}</h1>
               <p className="text-lg text-gray-200 mb-4 mt-2">{slides[currentSlide].description}</p>
               <a href="https://office.kaizenmarkets.com/trader/registration">
-                <button className="bg-[#FE7501] border-2 border-[#FE7501] text-white px-4 py-2 hover:bg-purple-600 transition duration-200">
+                <button className="bg-[#FE7501] border-2 border-[#FE7501] text-white px-4 py-2 hover:bg-green-600 transition duration-200">
                   Get Started
                 </button>
               </a>
@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* "How Will it Work?" Section */}
-        <div className="box-border font-urbanist mx-auto w-full outline-none max-w-[1480px] text-[14px]/[22.4px] mt-10">
+        <div className="box-border font-urbanist mx-auto w-full outline-none max-w-[1480px] text-[14px]/[22.4px] mt-14">
           <div className="box-border font-urbanist text-center outline-none">
             <h3 className="mb-8 font-bold mt-0 font-urbanist leading-[1.2] text-[calc(1.425rem+2.1vw)]">
               How Will it Work?

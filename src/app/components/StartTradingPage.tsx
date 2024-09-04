@@ -20,7 +20,7 @@ const StartTradingPage: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 p-6 gap-2 mb-12 max-w-screen-xl mx-auto">
-                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-purple-600 transition duration-200 rounded-lg flex flex-col items-center">
+                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center">
                     <Image
                         src={ic1.src}
                         alt="Forex Illustration"
@@ -32,7 +32,7 @@ const StartTradingPage: React.FC = () => {
                     <p className='font-Inter18 text-sm text-gray-300'>Fill in your information on the account registration form.</p>
                 </div>
 
-                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-purple-600 transition duration-200 rounded-lg flex flex-col items-center">
+                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center">
                     <Image
                         src={ic2.src}
                         alt="Forex Illustration"
@@ -44,7 +44,7 @@ const StartTradingPage: React.FC = () => {
                     <p className='font-Inter18 text-sm text-gray-300'>Fund your trading account with any of the deposit method.</p>
                 </div>
 
-                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-purple-600 transition duration-200 rounded-lg flex flex-col items-center">
+                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center">
                     <Image
                         src={ic3.src}
                         alt="Forex Illustration"
@@ -60,10 +60,10 @@ const StartTradingPage: React.FC = () => {
 
             <div className="flex p-4 gap-4 max-w-screen-xl">
                 <a href="https://office.kaizenmarkets.com/">
-                    <button className="bg-yellow-500 text-white py-2 px-6  font-semibold hover:bg-purple-600 transition duration-300">Open Live Account</button>
+                    <button className="bg-[#FE7501] text-white py-2 px-6  font-semibold hover:bg-green-600 transition duration-300">Open Live Account</button>
                 </a>
                 <a href="https://office.kaizenmarkets.com/trader/registration">
-                    <button className=" text-white py-2 px-6  font-semibold hover:bg-gray-200 hover:text-gray-800 transition duration-300 border ">Open Demo Account</button>
+                    <button className=" text-white py-2 px-6  font-semibold hover:bg-green-600  hover:text-white transition duration-300 border ">Open Demo Account</button>
                 </a>
             </div>
         </div>

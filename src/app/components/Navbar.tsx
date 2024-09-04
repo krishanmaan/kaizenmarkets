@@ -124,10 +124,10 @@ const Navbar: React.FC = () => {
 
           <div className="hidden md:flex space-x-4">
             <a href="https://office.kaizenmarkets.com/">
-              <button className="w-full text-gray-700 border border-black px-4 py-2 rounded hover:bg-purple-600 transition duration-200 hover:text-white">Sign In</button>
+              <button className="w-full text-gray-700 border border-black px-4 py-2 rounded hover:bg-green-600 transition duration-200 hover:text-white">Sign In</button>
             </a>
             <a href="https://office.kaizenmarkets.com/trader/registration">
-              <button className="bg-[#FE7501] text-white px-4 py-2 hover:bg-purple-600 transition duration-200">Sign Up</button>
+              <button className=" bg-[#FE7501] text-white px-4 py-2 hover:bg-green-600 transition duration-200 border border-black rounded">Sign Up</button>
             </a>
           </div>
 

@@ -73,7 +73,7 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-purple-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-purple-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-purple-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
@@ -277,7 +277,7 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-purple-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
@@ -345,7 +345,7 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-purple-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
