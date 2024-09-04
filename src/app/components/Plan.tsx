@@ -12,7 +12,7 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
-                                <h4 className="text-xl font-Poppins">ROOKIE ACCOUNT</h4>
+                                <h4 className="text-xl font-Poppins">Rookie Account</h4>
                                 <span className="text-sm font-Inter18">$500/monthly</span>
                             </div>
                             <p className="mt-3 leading-relaxed text-gray-400 font-Inter18">Min Deposit</p>
@@ -80,7 +80,7 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
-                                <h4 className="text-xl font-Poppins">ROOKIE ACCOUNT</h4>
+                                <h4 className="text-xl font-Poppins">Classic Account</h4>
                                 <span className="text-sm font-Inter18">$500/monthly</span>
                             </div>
                             <p className="mt-3 leading-relaxed text-gray-400 font-Inter18">Min Deposit</p>
@@ -148,7 +148,7 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
-                                <h4 className="text-xl font-Poppins">STANDARD ACCOUNT</h4>
+                                <h4 className="text-xl font-Poppins">Standard Account</h4>
                                 <span className="text-sm font-Inter18">$3000/monthly</span>
                             </div>
                             <p className="mt-3 leading-relaxed text-gray-400 font-Inter18">Min Deposit</p>
@@ -216,7 +216,7 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
-                                <h4 className="text-xl font-Poppins">VIP ACCOUNT</h4>
+                                <h4 className="text-xl font-Poppins">VIP Account</h4>
                                 <span className="text-sm font-Inter18">$1000/monthly</span>
                             </div>
                             <p className="mt-3 leading-relaxed text-gray-400 font-Inter18">Min Deposit</p>
@@ -284,7 +284,7 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
-                                <h4 className="text-xl font-Poppins">ELITE ACCOUNT</h4>
+                                <h4 className="text-xl font-Poppins">Elite Account</h4>
                                 <span className="text-sm font-Inter18">$5000/monthly</span>
                             </div>
                             <p className="mt-3 leading-relaxed text-gray-400 font-Inter18">Min Deposit</p>
