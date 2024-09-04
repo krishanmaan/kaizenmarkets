@@ -6,11 +6,11 @@ const Plan: React.FC = () => {
         <section className="py-20 bg-gray-800 text-gray-100">
             <div className="container px-4 mx-auto max-w-screen-xl">
                 <div className="max-w-2xl mx-auto mb-16 text-center">
-                    <h2 className="text-4xl font-bold lg:text-5xl">Start Today With <span className='text-gray-400'>Premium</span>   Plan You Choose</h2>
+                    <h2 className="text-4xl font-bold lg:text-5xl">Start Today With <span className='text-[#FE7501]'>Premium</span>   Plan You Choose</h2>
                 </div>
                 <div className="flex flex-wrap items-stretch -mx-5 p-4 lg:p-0">
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
-                        <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
+                        <div className="flex flex-grow flex-col p-4 space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
                                 <h4 className="text-xl font-Poppins">Rookie Account</h4>
                                 <span className="text-sm font-Inter18">$500/monthly</span>
@@ -73,12 +73,12 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded  text-white  bg-green-600 hover:bg-indigo-500 bg-gradient-to-r from-indigo-500 hover:from-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
-                        <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
+                        <div className="flex flex-grow flex-col p-4 space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
                                 <h4 className="text-xl font-Poppins">Classic Account</h4>
                                 <span className="text-sm font-Inter18">$500/monthly</span>
@@ -141,12 +141,12 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded  text-white  bg-green-600 hover:bg-indigo-500 bg-gradient-to-r from-indigo-500 hover:from-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
-                        <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
+                        <div className="flex flex-grow flex-col p-4 space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
                                 <h4 className="text-xl font-Poppins">Standard Account</h4>
                                 <span className="text-sm font-Inter18">$3000/monthly</span>
@@ -209,12 +209,12 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded  text-white  bg-green-600 hover:bg-indigo-500 bg-gradient-to-r from-indigo-500 hover:from-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
-                        <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
+                        <div className="flex flex-grow flex-col p-4 space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
                                 <h4 className="text-xl font-Poppins">VIP Account</h4>
                                 <span className="text-sm font-Inter18">$1000/monthly</span>
@@ -277,12 +277,12 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded  text-white  bg-green-600 hover:bg-indigo-500 bg-gradient-to-r from-indigo-500 hover:from-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
-                        <div className="flex flex-grow flex-col p-4 space-y-6 rounded shadow  bg-gray-900">
+                        <div className="flex flex-grow flex-col p-4 space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2">
                                 <h4 className="text-xl font-Poppins">Elite Account</h4>
                                 <span className="text-sm font-Inter18">$5000/monthly</span>
@@ -345,7 +345,7 @@ const Plan: React.FC = () => {
                                 </li>
                             </ul>
                             <a href="https://office.kaizenmarkets.com/trader/registration">
-                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#FE7501] text-white hover:bg-green-600">Join Now</button>
+                                <button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded  text-white  bg-green-600 hover:bg-indigo-500 bg-gradient-to-r from-indigo-500 hover:from-green-600">Join Now</button>
                             </a>
                         </div>
                     </div>

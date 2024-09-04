@@ -9,7 +9,7 @@ const Kaizenmarkets = () => {
             <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
                     <div>
-                        <h2 className="text-4xl font-Poppins text-gray-900 mb-8">
+                        <h2 className="text-4xl font-bold text-gray-900 mb-4 font-Inter18">
                             Why <span className="text-[#FE7501]">Choose</span> Our Funding Program?
                         </h2>
 
@@ -66,7 +66,7 @@ const Kaizenmarkets = () => {
                         </div>
                     </div>
                     <div className="flex justify-center">
-                        <Image src={funding.src} alt="funding Program" width={400} height={300} className="object-cover" />
+                        <Image src={funding.src} alt="funding Program" width={500} height={300} className="object-cover" />
                     </div>
                 </div>
             </div>
