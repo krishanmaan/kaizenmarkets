@@ -40,6 +40,7 @@ const Page = () => {
             </p>
           </div>
         </div>
+        
       </div>
 
       <div className="bg-gray-900 text-white py-10">
