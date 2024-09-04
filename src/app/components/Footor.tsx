@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import logo from '../../../public/img/logo/logo.svg';
+import logo from '../../../public/img/logo2.png'
 import { FaInstagram, FaTwitter, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 
 const Footor = () => {
