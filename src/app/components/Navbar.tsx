@@ -291,9 +291,9 @@ const Navbar: React.FC = () => {
               About
             </Link>
 
-            <div className="space-y-2 pt-4">
+            <div className="space-y-2 pt-4 gap-4">
               <a href="https://office.kaizenmarkets.com/">
-                <button className="w-full text-gray-700 border border-black px-4 py-2 rounded hover:bg-green-600 transition duration-200 hover:text-white">
+                <button className="w-full text-gray-700 border border-black px-4 py-2 rounded hover:bg-green-600 transition duration-200 hover:text-white mb-4">
                   Sign In
                 </button>
               </a>
