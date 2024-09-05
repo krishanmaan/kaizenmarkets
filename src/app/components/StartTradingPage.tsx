@@ -14,12 +14,12 @@ const StartTradingPage: React.FC = () => {
 
         // }}
         >
-            <div className="text-center text-white max-w-screen-xl">
+            <div className="text-center text-white max-w-screen-xl ">
                 <h1 className="text-4xl font-extrabold mb-2 font-Poppins ">Start Trading in Simple Steps</h1>
                 <p className="text-lg mb-8 font-Inter18  text-gray-300 px-4">Register now a free account and you can start trading today!</p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 p-6 gap-2 mb-12 max-w-screen-xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 p-6 gap-2 mb-6 max-w-screen-xl mx-auto">
                 <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center">
                     <Image
                         src={ic1.src}
@@ -58,7 +58,7 @@ const StartTradingPage: React.FC = () => {
             </div>
 
 
-            <div className="flex p-4 gap-4 max-w-screen-xl">
+            <div className="flex p-4 gap-4 max-w-screen-xl -mb-6">
                 <a href="https://office.kaizenmarkets.com/">
                     <button className="bg-[#FE7501] text-white py-2 px-6  font-semibold hover:bg-green-600 transition duration-300">Open Live Account</button>
                 </a>

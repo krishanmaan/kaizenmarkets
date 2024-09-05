@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Content on Top of Slider */}
-          <div className="absolute inset-0 flex items-center px-4 sm:px-8 md:px-28">
+          <div className="absolute inset-0 flex items-center px-4 sm:px-8 md:px-28 mt-20 lg:mt-0">
             <div className="text-white text-center md:text-left">
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">{slides[currentSlide].heading}</h1>
               <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-4 mt-2">{slides[currentSlide].description}</p>
@@ -109,7 +109,7 @@ const Hero: React.FC = () => {
                 <p className="font-bold text-lg mb-4 leading-[1.75rem]">
                   1:500
                 </p>
-                <p className="text-sm text-gray-600 text-center leading-[1.25rem]">
+                <p className="text-sm text-gray-600 text-center leading-[1.25rem] -mt-2 mb-6 ">
                   LEVERAGE UP TO
                 </p>
               </div>
@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
                 <p className="font-bold text-lg mb-4 leading-[1.75rem]">
                   $50
                 </p>
-                <p className="text-sm text-gray-600 text-center leading-[1.25rem]">
+                <p className="text-sm text-gray-600 text-center leading-[1.25rem] -mt-2 mb-6">
                   MINIMUM DEPOSIT
                 </p>
               </div>
@@ -131,7 +131,7 @@ const Hero: React.FC = () => {
                 <p className="font-bold text-lg mb-4 leading-[1.75rem]">
                   24/7
                 </p>
-                <p className="text-sm text-gray-600 text-center leading-[1.25rem]">
+                <p className="text-sm text-gray-600 text-center leading-[1.25rem] -mt-2 mb-6">
                   DEDICATED SUPPORT
                 </p>
               </div>
