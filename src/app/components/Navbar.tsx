@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
                 src={logo.src}
                 alt="Forex Illustration"
                 className="max-w-full h-auto"
-                width={198}
+                width={190}
                 height={40}
               />
             </div>

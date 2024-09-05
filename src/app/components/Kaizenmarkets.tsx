@@ -38,7 +38,7 @@ const Kaizenmarkets = () => {
                                
                             </ul>
                             <ul className="space-y-4 text-black text-sm w-full md:w-1/2">
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded -mt-4 lg:-mt-0">
                                     <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
                                     Daily Technical Analysis
                                 </li> <br/>

@@ -3,10 +3,10 @@ import bg from '../../../public/img/bg/bg-2.png';
 
 const Plan: React.FC = () => {
     return (
-        <section className="py-20 bg-gray-800 text-gray-100">
+        <section className="py-16 bg-gray-800 text-gray-100">
             <div className="container px-4 mx-auto max-w-screen-xl">
-                <div className="max-w-2xl mx-auto mb-16 text-center">
-                    <h2 className="text-4xl font-bold lg:text-5xl">Start Today With <span className='text-[#FE7501]'>Premium</span>   Plan You Choose</h2>
+                <div className="max-w-2xl mx-auto mb-6 text-center">
+                    <h2 className=" text-[calc(1.425rem+2.1vw)] font-Poppins font-bold">Start Today With <span className='text-[#FE7501]'>Premium</span>   Plan You Choose</h2>
                 </div>
                 <div className="flex flex-wrap items-stretch -mx-5 p-4 lg:p-0 text-wrap">
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
