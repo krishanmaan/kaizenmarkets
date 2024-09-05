@@ -5,6 +5,7 @@ import Image from "next/image";
 import slider1 from "../../../public/img/bg/slider1.jpg";
 import slider2 from "../../../public/img/bg/slider2.jpg";
 import slider3 from "../../../public/img/bg/slider3.jpg";
+import slider4 from "../../../public/img/bg/slider4.jpg";
 import { FaLaptop } from "react-icons/fa";
 import { AiFillDollarCircle } from "react-icons/ai";
 import { MdOutlineSupportAgent } from "react-icons/md";
@@ -27,6 +28,11 @@ const Hero: React.FC = () => {
       image: slider3,
       heading: "Join the Forex Revolution",
       description: "Be part of the Forex revolution—innovative trading solutions await you.",
+    },
+    {
+      image: slider4,
+      heading: "Love at First Trade",
+      description: "instant connection, sharp insights, and smart trades. Experience love at first trade!",
     },
   ];
 
