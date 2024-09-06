@@ -143,13 +143,13 @@ const Navbar: React.FC = () => {
               </button>
               {activeDropdown === 'platform' && (
                 <div className="absolute py-2 w-48 bg-white border rounded shadow-xl">
-                  <Link href="/platform" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
+                  <Link href="/platform#windows" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
                     Windows Platform
                   </Link>
-                  <Link href="/platform" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
+                  <Link href="/platform#ios" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
                     iOS Platform
                   </Link>
-                  <Link href="/platform" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
+                  <Link href="/platform#and" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
                     Android Platform
                   </Link>
                 </div>
@@ -274,13 +274,13 @@ const Navbar: React.FC = () => {
               </button>
               {activeDropdown === 'platform' && (
                 <div className="pl-4">
-                  <Link href="/platform" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
+                  <Link href="/platform#windows" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
                     Windows Platform
                   </Link>
-                  <Link href="/platform" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
+                  <Link href="/platform#ios" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
                     iOS Platform
                   </Link>
-                  <Link href="/platform" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
+                  <Link href="/platform#and" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
                     Android Platform
                   </Link>
                 </div>

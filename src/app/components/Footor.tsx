@@ -109,9 +109,12 @@ const Footor = () => {
                             </div>
                             <ul className="leading-8 text-white">
                                 <li><a href="#" className="hover:text-blue-400"> support@kaizenmarkets.com</a></li>
-                                <li><a href="#" className="hover:text-blue-400">Ground Floor, The Sotheby budling ,</a></li>
-                                <li><a href="#" className="hover:text-blue-400">Rodney Bay, Gros islet, Saint Lucia, P.O.</a></li>
-                                <li><a href="#" className="hover:text-blue-400">Box -838 Castries, Saint Lucia, LC-LC01401.</a></li>
+                                <div className='hover:text-blue-400'>
+                                    <li><a href="#" className="hover:text-blue-400">Ground Floor, The Sotheby budling ,</a></li>
+                                    <li><a href="#" className="hover:text-blue-400">Rodney Bay, Gros islet, Saint Lucia, P.O.</a></li>
+                                    <li><a href="#" className="">Box -838 Castries, Saint Lucia, LC-LC01401.</a></li>
+                                </div>
+
                             </ul>
                         </div>
                         <div className="px-4 my-4 w-full sm:w-auto xl:w-1/5">
@@ -137,26 +140,25 @@ const Footor = () => {
 
                         </div>
                     </div>
-                    <p className="text-justify text-gray-200">
+                    <p className="text-justify text-gray-200  text-xs">
                         <span className='font-extrabold'> Risk statement :</span>  An investment in derivatives may mean investors may lose an amount even greater than their original investment. Anyone wishing to invest in any of the products mentioned in https://kaizenmarkets.com/ should seek their own financial or professional advice. Trading of securities, forex, stock market, commodities, options and futures may not be suitable for everyone and involves the risk of losing part or all of your money. Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the markets. Don&apos;t invest and trade with money which you can&apos;t afford to lose. Forex Trading are not allowed in some countries, before investing your money, make sure whether your country is allowing this or not. Restricted Regions : Kaizen Markets Limited does not provide services for citizens/residents of the United States, Cuba, Iraq, Myanmar, North Korea, Sudan. The services of Kaizen Markets Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
                     </p>
                 </div>
             </div>
             <div className="bg-[#FE7501] py-4 text-gray-100">
-                <div className="container mx-auto px-4">
-                    <div className="-mx-4 flex flex-wrap justify-between">
+                <div className="container mx-auto px-4 ">
+                    <div className="-mx-4 flex flex-wrap justify-between ">
                         <div className="px-4 w-full text-center sm:w-auto sm:text-left">
                             © 2024 Kaizen Markets | All Rights Reserved.
+                           
 
                         </div>
-                        <div className="flex space-x-8 text-white text-xs">
+                        <div className="flex space-x-8 text-white text-xs  text-center justify-center ">
                             <a href="#" className="hover:text-white">Privacy Policy</a>
                             <a href="#" className="hover:text-white">Conflicts of Interest</a>
                             <a href="#" className="hover:text-white">Risk Disclosures</a>
                         </div>
-                        {/* <div className="px-4 w-full text-center sm:w-auto sm:text-left">
-                            Made with ❤️ by Maan.
-                        </div> */}
+
                     </div>
                 </div>
             </div>
