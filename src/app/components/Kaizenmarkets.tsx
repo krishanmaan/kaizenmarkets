@@ -12,7 +12,7 @@ import videoTutorial from '../../../public/img/icon/New folder/video-tutorial.pn
 
 const Kaizenmarkets: React.FC = () => {
     return (
-        <section className="bg-[#F7F6FD] py-16">
+        <section className="bg-[#F7F6FD] py-16 mb-10">
             <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="gap-8 items-center">
                     <div>

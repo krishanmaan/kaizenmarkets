@@ -5,7 +5,7 @@ import { FaInstagram, FaTwitter, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 
 const Footor = () => {
     return (
-        <footer className="bg-[#F7F6FB] py-8 pt-16 font-Inter18 ">
+        <footer className="bg-[#F7F6FB] pt-8 pt-16 font-Inter18 ">
             <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-8 text-black">
                 <div className='pb-10'>
                     <h1 className='text-4xl font-extrabold mb-2 font-Poppins text-center'>Instant account opening & funding</h1>
