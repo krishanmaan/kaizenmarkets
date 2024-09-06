@@ -1,77 +1,70 @@
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
-import { CheckCircleIcon } from '@heroicons/react/24/solid';
-import funding from '../../../public/img/bg/slider3.png'
+import antenna from '../../../public/img/icon/New folder/antenna.png';
+import calendar from '../../../public/img/icon/New folder/calendar.png';
+import chart from '../../../public/img/icon/New folder/chart.png';
+import employee from '../../../public/img/icon/New folder/employee.png';
+import pieChart from '../../../public/img/icon/New folder/pie-chart.png';
+import responsive from '../../../public/img/icon/New folder/responsive.png';
+import support from '../../../public/img/icon/New folder/support.png';
+import videoPlayer from '../../../public/img/icon/New folder/video-player.png';
+import videoTutorial from '../../../public/img/icon/New folder/video-tutorial.png';
 
-const Kaizenmarkets = () => {
+const Kaizenmarkets: React.FC = () => {
     return (
         <section className="bg-[#F7F6FD] py-16">
             <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
+                <div className="gap-8 items-center">
                     <div>
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4 font-Inter18">
+                        <h2 className="text-4xl font-bold text-gray-900 mb-4 font-Inter18 text-center">
                             Why <span className="text-[#FE7501]">Choose</span> Our Funding Program?
                         </h2>
 
-                        <div className='flex flex-col md:flex-row gap-8'>
-                            <ul className="space-y-4 text-black text-sm w-full md:w-1/2">
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Personal Account Managers
+                        <div>
+                            <ul className="grid grid-cols-1 md:grid-cols-3 gap-1 text-black text-sm w-full">
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={employee.src} alt="Personal Account Managers" width={50} height={50} />
+                                    <span className="ml-2 text-center">Personal Account Managers</span>
                                 </li>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Free Access to Forex Market Research
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={chart.src} alt="Forex Market Research" width={50} height={50} />
+                                    <span className="ml-2 text-center">Free Access to Forex Market Research</span>
                                 </li>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Free Access to Daily Forex Webinars
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={videoTutorial.src} alt="Daily Forex Webinars" width={50} height={50} />
+                                    <span className="ml-2 text-center">Free Access to Daily Forex Webinars</span>
                                 </li>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Unlimited Access to Video Tutorials
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={videoPlayer.src} alt="Unlimited Video Tutorials" width={50} height={50} />
+                                    <span className="ml-2 text-center">Unlimited Access to Video Tutorials</span>
                                 </li>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Daily Access to Forex Trading Signals
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={antenna.src} alt="Forex Trading Signals" width={50} height={50} />
+                                    <span className="ml-2 text-center">Daily Access to Forex Trading Signals</span>
                                 </li>
-                               
-                            </ul>
-                            <ul className="space-y-4 text-black text-sm w-full md:w-1/2">
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded -mt-4 lg:-mt-0">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Daily Technical Analysis
-                                </li> <br/>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Daily Forex Market Outlook
-                                </li> <br/>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Flexible Trading Conditions
-                                </li> <br/>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    Competitive Spreads
-                                </li> <br/>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    24/5 Hour Live Help
-                                </li> <br/>
-                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded">
-                                    <CheckCircleIcon className="h-[19px] w-[19px] text-[#FE7501] mr-2" />
-                                    16 Platforms to Choose
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={pieChart.src} alt="Daily Technical Analysis" width={50} height={50} />
+                                    <span className="ml-2 text-center">Daily Technical Analysis</span>
+                                </li>
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={calendar.src} alt="Forex Market Outlook" width={50} height={50} />
+                                    <span className="ml-2 text-center">Daily Forex Market Outlook</span>
+                                </li>
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={responsive.src} alt="Platforms to Choose" width={50} height={50} />
+                                    <span className="ml-2 text-center">16 Platforms to Choose From. Any Device, Anywhere</span>
+                                </li>
+                                <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
+                                    <Image src={support.src} alt="24/5 Live Help" width={50} height={50} />
+                                    <span className="ml-2 text-center">24/5 Hour Live Help</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="flex justify-center">
-                        <Image src={funding.src} alt="funding Program" width={500} height={300} className="object-cover" />
-                    </div>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Kaizenmarkets
+export default Kaizenmarkets;
