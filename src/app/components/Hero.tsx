@@ -103,9 +103,9 @@ const Hero: React.FC = () => {
         </div>
 
         {/* "How Will it Work?" Section */}
-        <div className="box-border font-urbanist mx-auto w-full outline-none max-w-[1480px] text-[14px]/[22.4px] mt-14">
+        <div className="box-border font-urbanist mx-auto w-full outline-none max-w-[1480px] text-[14px]/[22.4px] mt-28">
           <div className="text-center">
-            <h3 className="mb-8 font-bold mt-0 text-[calc(1.425rem+2.1vw)]">
+            <h3 className="mb-10 font-bold mt-0 text-[calc(1.425rem+2.1vw)]">
               How Will it Work?
             </h3>
           </div>

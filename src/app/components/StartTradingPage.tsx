@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 const StartTradingPage: React.FC = () => {
     return (
-        <div className="bg-cover bg-center bg-gray-900 pt-20 pb-20  flex flex-col items-center justify-center"
+        <div className="bg-cover bg-center bg-[#202938] pt-20 pb-20  flex flex-col items-center justify-center"
         // style={{
         //     backgroundImage: `url(${footerban.src})`, 
 
@@ -20,7 +20,7 @@ const StartTradingPage: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 p-6 gap-2 mb-4 max-w-screen-xl mx-auto">
-                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center">
+                <div className="bg-[#111827] text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center border">
                     <Image
                         src={ic1.src}
                         alt="Forex Illustration"
@@ -32,7 +32,7 @@ const StartTradingPage: React.FC = () => {
                     <p className='font-Inter18 text-sm text-gray-300'>Fill in your information on the account registration form.</p>
                 </div>
 
-                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center">
+                <div className="bg-[#111827] text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center border">
                     <Image
                         src={ic2.src}
                         alt="Forex Illustration"
@@ -44,7 +44,7 @@ const StartTradingPage: React.FC = () => {
                     <p className='font-Inter18 text-sm text-gray-300'>Fund your trading account with any of the deposit method.</p>
                 </div>
 
-                <div className="bg-gray-800 text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center">
+                <div className="bg-[#111827] text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center border">
                     <Image
                         src={ic3.src}
                         alt="Forex Illustration"
