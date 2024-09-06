@@ -56,16 +56,23 @@ const Hero: React.FC = () => {
     <div className="">
       {/* Hero Section */}
       <section className="relative bg-gradient-custom">
-       
+
         <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] overflow-hidden flex justify-center items-center">
           {/* Background Slider */}
           <div className="absolute inset-0 flex transition-transform duration-1000 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
             {slides.map((slide, index) => (
               <div key={index} className="w-full h-full relative flex-shrink-0">
-                <Image src={slide.image} alt={`Slide ${index + 1}`} layout="fill" objectFit="cover" />
+                <Image
+                  src={slide.image}
+                  alt={`Slide ${index + 1}`}
+                  layout="fill"
+                  objectFit="cover"
+                  style={{ opacity: 0.9 }} 
+                />
               </div>
             ))}
           </div>
+
 
           {/* Content on Top of Slider */}
           <div className="absolute inset-0 flex items-center px-4 sm:px-8 md:px-28 mt-20 lg:mt-0">
