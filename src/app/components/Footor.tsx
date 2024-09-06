@@ -5,16 +5,33 @@ import { FaInstagram, FaTwitter, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 
 const Footor = () => {
     return (
-        <footer className="bg-[#F7F6FB] py-8 font-Inter18">
+        <footer className="bg-[#F7F6FB] py-8 pt-16 font-Inter18 ">
             <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-8 text-black">
+                <div className='pb-10'>
+                    <h1 className='text-4xl font-extrabold mb-2 font-Poppins text-center'>Instant account opening & funding</h1>
+                    <p className='text-2xl mb-4 font-Inter18  text-gray-900 px-4 text-center'>Trade within minutes!</p>
+                    <div className="flex justify-center items-center space-x-4 pt-4">
+                        <a href="https://office.kaizenmarkets.com/">
+                            <button className="text-gray-700 border border-black px-8 py-2 w-full rounded hover:bg-green-600 transition duration-200 hover:text-white">
+                                Get Started
+                            </button>
+                        </a>
+                        <a href="https://office.kaizenmarkets.com/trader/registration">
+                            <button className="bg-[#FE7501] text-white px-8 py-2 w-full hover:bg-green-600 transition duration-200 border border-black rounded">
+                                Try a Free Demo
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
                 <div className="flex flex-col md:flex-row lg:gap-16 gap-5 text-center lg:text-left">
                     <div className="flex flex-col gap-4">
                         <p className="text-gray-950">Investments may exceed losses, seek advice, and consider risks before trading. Trading isn&apos;t suitable for all. Restricted in some regions.</p>
                         <div className='flex gap-2 text-2xl text-gray-950 justify-center md:justify-start'>
-                            <FaFacebook className='hover:text-white hover:bg-yellow-500 hover:border-yellow-500 border-2 border-gray-950 p-1 rounded-md' />
-                            <FaInstagram className='hover:text-white hover:bg-yellow-500 hover:border-yellow-500 border-2 border-gray-950 p-1 rounded-md' />
-                            <FaTwitter className='hover:text-white hover:bg-yellow-500 hover:border-yellow-500 border-2 border-gray-950 p-1 rounded-md' />
-                            <FaWhatsapp className='hover:text-white hover:bg-yellow-500 hover:border-yellow-500 border-2 border-gray-950 p-1 rounded-md' />
+                            <FaFacebook className='hover:text-white hover:bg-green-600 hover:border-green-600 border-2 border-gray-950 p-1 rounded-md' />
+                            <FaInstagram className='hover:text-white hover:bg-green-600 hover:border-green-600 border-2 border-gray-950 p-1 rounded-md' />
+                            <FaTwitter className='hover:text-white hover:bg-green-600 hover:border-green-600 border-2 border-gray-950 p-1 rounded-md' />
+                            <FaWhatsapp className='hover:text-white hover:bg-green-600 hover:border-green-600 border-2 border-gray-950 p-1 rounded-md' />
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">

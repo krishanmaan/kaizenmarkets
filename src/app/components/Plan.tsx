@@ -4,7 +4,7 @@ import bg from '../../../public/img/bg/bg-2.png';
 const Plan: React.FC = () => {
     return (
         <section className="py-16 bg-gray-800 text-gray-100">
-            <div className="container px-4 mx-auto max-w-screen-xl">
+            <div className="container px-6 mx-auto max-w-screen-xl">
                 <div className="max-w-2xl mx-auto mb-6 text-center">
                     <h2 className=" text-[calc(1.425rem+2.1vw)] font-Poppins font-bold">Start Today With <span className='text-[#FE7501]'>Premium</span>   Plan You Choose</h2>
                 </div>
