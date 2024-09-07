@@ -82,7 +82,7 @@ const Page = () => {
           ))}
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 max-w-screen-xl pt-12 ">
+        <div className="flex flex-col sm:flex-row gap-4 max-w-screen-xl py-12 ">
           <a href="https://office.kaizenmarkets.com/">
             <button className="bg-yellow-500 text-white py-2 px-8 font-semibold hover:bg-purple-600 transition duration-300 ">Open Live Account</button>
           </a>
