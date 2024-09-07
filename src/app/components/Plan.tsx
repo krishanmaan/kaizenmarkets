@@ -12,9 +12,9 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col  space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2 p-4 bg-[#FE7501]">
-                                <h4 className="text-lg font-Poppins">Rookie Account</h4>
+                                <h4 className="text-lg font-extrabold font-Poppins">Rookie Account</h4>
                             </div>
-                            <span className="text-xs font-Inter18 text-gray-300 pl-4">$200/monthly Min Deposit</span>
+                            <span className="text-xs font-Inter18 text-gray-300 pl-4 font-bold">$200/monthly Min Deposit</span>
                             <ul className="flex-1 mb-6 text-gray-400 font-Inter18 pl-4 pr-4  border-t">
                                 <li className="flex mb-2 space-x-1 pt-2 ">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-purple-400">
@@ -81,10 +81,10 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col  space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2 p-4 bg-[#FE7501]">
-                                <h4 className="text-lg font-Poppins">Classic Account</h4>
+                                <h4 className="text-lg font-Poppins font-extrabold">Classic Account</h4>
 
                             </div>
-                            <span className="text-sm font-Inter18  text-gray-300 pl-4">$500/monthly Min Deposit</span>
+                            <span className="font-bold  text-sm font-Inter18  text-gray-300 pl-4">$500/monthly Min Deposit</span>
                             <ul className="flex-1 mb-6 text-gray-400 font-Inter18 pl-4 pr-4 border-t ">
                                 <li className="flex mb-2 space-x-1 pt-2 ">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-purple-400">
@@ -151,10 +151,10 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col  space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2 p-4 bg-[#FE7501]">
-                                <h4 className="text-lg font-Poppins">Standard Account</h4>
+                                <h4 className="text-lg font-Poppins font-extrabold">Standard Account</h4>
 
                             </div>
-                            <span className="text-sm font-Inter18  text-gray-300 pl-4">$3000/monthly Min Deposit</span>
+                            <span className="font-bold  text-sm font-Inter18  text-gray-300 pl-4">$3000/monthly Min Deposit</span>
                             <ul className="flex-1 mb-6 text-gray-400 font-Inter18 pl-4 pr-4  border-t">
                                 <li className="flex mb-2 space-x-1 pt-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-purple-400">
@@ -222,10 +222,10 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col  space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2 p-4 bg-[#FE7501]">
-                                <h4 className="text-lg font-Poppins">Elite Account</h4>
+                                <h4 className="text-lg font-Poppins font-extrabold">Elite Account</h4>
 
                             </div>
-                            <span className="text-sm font-Inter18  text-gray-300 pl-4">$5000/monthly Min Deposit</span>
+                            <span className="font-bold  text-sm font-Inter18  text-gray-300 pl-4">$5000/monthly Min Deposit</span>
                             <ul className="flex-1 mb-6 text-gray-400 font-Inter18 pl-4 pr-4  border-t">
                                 <li className="flex mb-2 space-x-1 pt-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-purple-400">
@@ -292,10 +292,10 @@ const Plan: React.FC = () => {
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/10 lg:w-1/5 lg:mb-0">
                         <div className="flex flex-grow flex-col  space-y-2 rounded shadow  bg-gray-900">
                             <div className="space-y-2 p-4 bg-[#FE7501]">
-                                <h4 className="text-lg font-Poppins">VIP Account</h4>
+                                <h4 className="text-lg font-Poppins font-extrabold">VIP Account</h4>
 
                             </div>
-                            <span className="text-sm font-Inter18  text-gray-300 pl-4">$10000/monthly Min Deposit</span>
+                            <span className="font-bold  text-sm font-Inter18  text-gray-300 pl-4">$10000/monthly Min Deposit</span>
                             <ul className="flex-1 mb-6 text-gray-400 font-Inter18 pl-4 pr-4  border-t">
                                 <li className="flex mb-2 space-x-1 pt-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-purple-400">

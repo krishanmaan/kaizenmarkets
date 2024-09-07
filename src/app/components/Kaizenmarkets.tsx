@@ -21,7 +21,7 @@ const Kaizenmarkets: React.FC = () => {
                         </h2>
 
                         <div>
-                            <ul className="grid grid-cols-1 md:grid-cols-3 gap-1 text-black text-sm w-full">
+                            <ul className="grid grid-cols-1 md:grid-cols-3 gap-1 text-black text-sm w-full pt-12">
                                 <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
                                     <Image src={employee.src} alt="Personal Account Managers" width={50} height={50} />
                                     <span className="ml-2 text-center">Personal Account Managers</span>
