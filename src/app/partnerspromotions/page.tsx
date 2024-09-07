@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const page = () => {
   return (
-    <div className="w-full">
+    <div className="w-full text-justify">
     <div className="bg-gradient-custom2 pt-24">
       <Navbar />
       <div className="p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between max-w-screen-lg mx-auto">

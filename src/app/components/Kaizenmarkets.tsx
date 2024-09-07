@@ -28,7 +28,7 @@ const Kaizenmarkets: React.FC = () => {
                                 </li>
                                 <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
                                     <Image src={chart.src} alt="Forex Market Research" width={50} height={50} />
-                                    <span className="ml-2 text-center">Free Access to Forex Market Research</span>
+                                    <span className="ml-2 text-center">Free  Forex Market Research</span>
                                 </li>
                                 <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
                                     <Image src={videoTutorial.src} alt="Daily Forex Webinars" width={50} height={50} />
@@ -52,7 +52,7 @@ const Kaizenmarkets: React.FC = () => {
                                 </li>
                                 <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
                                     <Image src={responsive.src} alt="Platforms to Choose" width={50} height={50} />
-                                    <span className="ml-2 text-center">16 Platforms to Choose From. Any Device, Anywhere</span>
+                                    <span className="ml-2 text-center">16 Platforms to Choose Any Device, Anywhere</span>
                                 </li>
                                 <li className="inline-flex bg-[#FFFFFF] p-2 rounded-lg  items-center hover:bg-green-600 hover:text-white">
                                     <Image src={support.src} alt="24/5 Live Help" width={50} height={50} />

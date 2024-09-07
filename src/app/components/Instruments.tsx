@@ -6,10 +6,10 @@ const Instruments = () => {
     <div className="container mx-auto py-12 px-4 max-w-screen-xl">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <div className="text-left mb-12 pt-16">
-          <h2 className="text-5xl font-Poppins ">
+          <h2 className="text-5xl font-Poppins font-bold  ">
             AREAS WHAT WE SERVE Trading <span className="text-yellow-500">Instruments</span>
           </h2>
-          <p className="mt-4 text-sm  font-Inter18">
+          <p className="mt-4 text-sm  font-Inter18 text-justify">
             Choose from a diverse selection of six distinct asset classes, each offering unique opportunities for growth and investment. Gain comprehensive access to over 200 trading instruments, including stocks, bonds, commodities, currencies, and more, empowering you to build a well-rounded and robust investment portfolio tailored to your financial goals.
           </p>
         </div>

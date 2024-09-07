@@ -7,7 +7,7 @@ import one from '../../../public/img/one.png';
 
 const Page = () => {
     return (
-        <div className="w-full">
+        <div className="w-full text-justify">
             <div className="bg-gradient-custom2 py-24">
                 <Navbar />
 

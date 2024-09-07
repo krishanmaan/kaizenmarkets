@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full text-justify">
         <div className="bg-gradient-custom2 pt-24">
           <Navbar />
           <div className="flex flex-col md:flex-row items-center justify-between max-w-screen-xl mx-auto p-6  md:p-10">

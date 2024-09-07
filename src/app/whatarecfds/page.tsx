@@ -8,7 +8,7 @@ import phone from '../../../public/img/bg/mobile.png'
 
 const page = () => {
   return (
-    <div className="w-full">
+    <div className="w-full text-justify">
       <div className="bg-gradient-custom2 pt-24">
         <Navbar />
         <div className="p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between max-w-screen-lg mx-auto">
@@ -47,26 +47,28 @@ const page = () => {
             <p className="text-gray-400 mb-8">
               Traders at Kaizen Markets can enjoy one of the largest ranges of Commodities, Stocks, and Indices compared to most brokers.
             </p>
-            <h3 className="text-xl font-bold mb-4">Increased Trading Choices</h3>
+            <h3 className="text-xs  mb-4">Increased Trading Choices</h3>
             <div className="space-y-6">
               {/* List Items */}
               {[
-                'A selection of powerful trading platforms, including MetaTrader 5 platforms for desktop, tablet & mobile.',
-                'Web trading platform (no download and installation required).',
+                'Trade on MetaTrader 5 via all devices.',
+                'Trade online with our no-download platform.',
                 'Leading US, European & Asian stocks trade as CFDs.',
                 'Go long or short – trade your view on the market.',
                 'Get leverage of up to 400:1 on CFD trading.',
-                'Trade on the move with our new Kaizen Markets MT5 app with unique risk-limiting tool Kaizen Markets Protect.',
-                'Both manual and automated trading platforms Kaizen Markets.'
+                'Trade with MT5 app, risk-limited.',
+                'Kaizen Markets offers manual and automated trading.'
               ].map((item, index) => (
-                <div className="flex items-start" key={index}>
-                  <div className="bg-blue-600 rounded-full w-8 h-8 flex items-center justify-center text-white font-bold mr-4">
+                <div className="flex items-start">
+                  <div className="bg-blue-600 rounded-full w-[40px] h-[40px] flex items-center justify-center text-white font-bold text-sm mr-4 flex-shrink-0">
                     {index + 1}
                   </div>
-                  <p>{item}</p>
+                  <p className="flex-1">{item}</p>
                 </div>
               ))}
             </div>
+
+
           </div>
           {/* Image Content */}
           <div className="md:w-1/2 flex justify-center mt-12 md:mt-0">
@@ -101,7 +103,7 @@ const page = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <p>A selection of powerful trading platforms, including MetaTrader 5 platforms for desktop, tablet & mobile</p>
+              <p>Trade on MetaTrader 5 across desktop, tablet, and mobile platforms.</p>
             </div>
             <div className="flex items-start">
               <svg

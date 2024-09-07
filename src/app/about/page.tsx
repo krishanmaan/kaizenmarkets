@@ -8,7 +8,7 @@ const AboutPage: React.FC = () => {
     <>
 
       <Navbar />
-      <div className="bg-gray-900 mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="bg-gray-900 mx-auto px-4 sm:px-6 lg:px-8 py-12 text-justify">
         <div className="text-white bg-gray-800 font-Inter18 p-8 rounded-lg shadow-lg mb-12 max-w-screen-lg mx-auto">
           <h1 className="text-4xl font-bold mb-4 font-Poppins">ABOUT</h1>
           <p className="text-lg mb-4">
