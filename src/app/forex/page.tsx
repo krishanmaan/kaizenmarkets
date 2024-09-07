@@ -19,11 +19,11 @@ import footerban from '../../../public/img/bg/footer-ban.png';
 const Page = () => {
   return (
     <div className="w-full">
-      <div className="bg-gradient-custom2">
+      <div className="bg-gradient-custom2 pt-24">
         <Navbar />
         <div className="p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between max-w-screen-lg mx-auto">
           <div>
-            <h1 className="text-gray-900 text-4xl sm:text-4xl font-bold mt-20">Forex</h1>
+            <h1 className="text-gray-900 text-4xl sm:text-4xl font-bold ">Forex</h1>
             <nav className="text-gray-600 mt-4">
               <a href="/">
                 <span>Home</span>

@@ -11,9 +11,9 @@ interface PageProps {}
 const Page: React.FC<PageProps> = () => {
   return (
     <div className="w-full">
-      <div className="bg-gradient-custom2">
+      <div className="bg-gradient-custom2 pt-24">
         <Navbar />
-        <div className="p-8 flex items-center justify-between max-w-screen-lg mx-auto">
+        <div className="p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between max-w-screen-lg mx-auto">
           <div>
             <h1 className="text-gray-900 text-4xl font-bold">Advantages</h1>
             <nav className="text-gray-600 mt-4">

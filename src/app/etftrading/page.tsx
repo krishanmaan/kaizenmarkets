@@ -8,9 +8,9 @@ import Image from 'next/image';
 const Page = () => {
   return (
     <div className="w-full">
-      <div className="bg-gradient-custom2">
+      <div className="bg-gradient-custom2 pt-24">
         <Navbar />
-        <div className="p-8 flex flex-col md:flex-row items-center justify-between max-w-screen-lg mx-auto">
+        <div className="p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between max-w-screen-lg mx-auto">
           <div className="text-center md:text-left mb-6 md:mb-0">
             <h1 className="text-gray-900 text-4xl font-bold">ETF Trading</h1>
             <nav className="text-gray-600 mt-4">
