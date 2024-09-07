@@ -59,7 +59,7 @@ const page = () => {
                 'Trade with MT5 app, risk-limited.',
                 'Kaizen Markets offers manual and automated trading.'
               ].map((item, index) => (
-                <div className="flex items-start">
+                <div className="flex items-start" key={index}>
                   <div className="bg-blue-600 rounded-full w-[40px] h-[40px] flex items-center justify-center text-white font-bold text-sm mr-4 flex-shrink-0">
                     {index + 1}
                   </div>
@@ -67,6 +67,7 @@ const page = () => {
                 </div>
               ))}
             </div>
+
 
 
           </div>

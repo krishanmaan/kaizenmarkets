@@ -74,7 +74,7 @@ export default function Home() {
 
         <Costs />
 
-        <div className="bg-black text-white p-8 max-w-screen-xl mx-auto">
+        <div className="bg-black text-white p-8 max-w-screen-xl mx-auto mb-10">
           <h2 className="text-3xl font-bold mb-6">Forex Trading Basic Terms</h2>
           <p className="mb-4">
             The most popular pair traded is the Euro vs. the American Dollar, or EURUSD. The currency on the left is called the base currency, and is the one we wish to buy or sell; the one on the right is the secondary currency, and is the one we use to make the transaction. Each pair has two prices — the price for selling the base currency (ask) and a price for buying it (bid). The difference between them is called a spread, and represents the amount brokers charge to open the position. The more a currency is traded, i.e. high liquidity, its spreads will be narrower. The rarer the pair is, the wider the spreads will be, since lower liquidity usually entails increased volatility. The increased risk — consequently — entails a wider spread.
