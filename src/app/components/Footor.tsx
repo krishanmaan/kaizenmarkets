@@ -97,10 +97,10 @@ const Footor = () => {
                                 <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-[#FE7501] font-extrabold text-white">Useful Links</h2>
                             </div>
                             <ul className="leading-8 text-white">
-                                <li><a href="#" className="hover:text-blue-400">About Us</a></li>
-                                <li><a href="#" className="hover:text-blue-400"> What is Forex</a></li>
-                                <li><a href="#" className="hover:text-blue-400"> What are CFDs</a></li>
-                                <li><a href="#" className="hover:text-blue-400">Contact Us</a></li>
+                                <li><a href="about" className="hover:text-blue-400">About Us</a></li>
+                                <li><a href="whatisforex" className="hover:text-blue-400"> What is Forex</a></li>
+                                <li><a href="whatarecfds" className="hover:text-blue-400"> What are CFDs</a></li>
+                                <li><a href="contact" className="hover:text-blue-400">Contact Us</a></li>
                             </ul>
                         </div>
                         <div className="px-4 my-4 w-full sm:w-auto">

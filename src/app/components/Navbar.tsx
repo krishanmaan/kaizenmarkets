@@ -36,8 +36,8 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-    
-      
+
+
       <header className="font-Inter18 fixed top-0 left-0 w-full bg-white  z-50">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/">
@@ -158,6 +158,9 @@ const Navbar: React.FC = () => {
 
             <Link href="/about" className="text-gray-700 hover:text-yellow-600">
               About
+            </Link>
+            <Link href="/contact" className="text-gray-700 hover:text-yellow-600">
+              Contact
             </Link>
           </nav>
 
@@ -289,6 +292,9 @@ const Navbar: React.FC = () => {
 
             <Link href="/about" className="block text-gray-700 hover:text-yellow-600">
               About
+            </Link>
+            <Link href="/contact" className="text-gray-700 hover:text-yellow-600">
+              Contact
             </Link>
 
             <div className="space-y-2 pt-4 gap-4">
