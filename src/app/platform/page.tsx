@@ -34,7 +34,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <section id='windows' className="  flex items-center justify-center bg-[#202938] lg:mt-24 lg:mb-10 pt-10 ">
+      <section id='windows' className="  flex items-center justify-center bg-[#202938] lg:mt-24 lg:mb-10 py-10 ">
         <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center  '>
           <div className="flex justify-center">
             <Image
