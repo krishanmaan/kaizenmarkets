@@ -34,8 +34,8 @@ const page = () => {
           </div>
         </div>
       </div>
-      <section id='windows' className="  flex items-center justify-center bg-[#202938] lg:mt-24 lg:mb-10 py-10">
-        <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center gap-'>
+      <section id='windows' className="  flex items-center justify-center bg-[#202938] lg:mt-24 lg:mb-10 pt-10 ">
+        <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center  '>
           <div className="flex justify-center">
             <Image
               src={win.src}
@@ -57,7 +57,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section id='ios' className="  flex items-center justify-center  bg-[#FEFEFE] lg:mt-24 lg:mb-10">
+      <section id='ios' className="  flex items-center justify-center  bg-[#FEFEFE] lg:mt-24 lg:mb-10 pt-16">
         <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center gap-'>
 
           <div className="px-4 lg:py-40 sm:px-6 ">
