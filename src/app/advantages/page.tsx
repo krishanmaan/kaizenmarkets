@@ -85,14 +85,14 @@ const Page: React.FC<PageProps> = () => {
             <div className="space-y-2">
               {[
                 'Weekly Payout',
-                'No Payout limit',
+                'No Payout Limit',
                 'Affiliate Tools',
                 'Marketing Tools',
-                'Hybrid and CPA Commissions plan',
+                'Hybrid and CPA Commissions Plan',
                 
               ].map((item, index) => (
                 <div className="flex items-start text-xs" key={index}>
-                  <div className="bg-blue-600 rounded-full w-[20px] h-[20px] flex items-center justify-center text-white font-bold text-sm mr-4 flex-shrink-0">
+                  <div className="bg-[#FE7501] rounded-full w-[20px] h-[20px] flex items-center justify-center text-white font-bold text-xs mr-4 flex-shrink-0">
                     {index + 1  }
                   </div>
                   <p className="flex-1">{item}</p>
@@ -102,15 +102,15 @@ const Page: React.FC<PageProps> = () => {
 
             <div className="space-y-2">
               {[
-                'Multi–tier upto 2 levels',
+                'Multi–tier upto 2 Levels',
                 'Dedicated Relationship Manage',
                 'Free Education Video and Tutorials',
                 'Monthly Contest',
-                '24/7 support',
+                '24/7 Support',
                 
               ].map((item, index) => (
                 <div className="flex items-start text-xs" key={index + 8}>
-                  <div className="bg-blue-600 rounded-full w-[20px] h-[20px] flex items-center justify-center text-white font-bold text-sm mr-4 flex-shrink-0">
+                  <div className="bg-[#FE7501] rounded-full w-[20px] h-[20px] flex items-center justify-center text-white font-bold text-xs mr-4 flex-shrink-0">
                     {index + 6}
                   </div>
                   <p className="flex-1">{item}</p>

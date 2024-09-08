@@ -34,7 +34,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <section id='windows' className="  flex items-center justify-center bg-[#202938] lg:mt-24 lg:mb-10 py-10 ">
+      <section id='windows' className="  flex items-center justify-center bg-[#202938] ">
         <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center  '>
           <div className="flex justify-center">
             <Image
@@ -57,7 +57,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section id='ios' className="  flex items-center justify-center  bg-[#FEFEFE] lg:mt-24 lg:mb-10 pt-16">
+      <section id='ios' className="  flex items-center justify-center  bg-[#FEFEFE]  ">
         <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center gap-'>
 
           <div className="px-4 lg:py-40 sm:px-6 ">
@@ -67,7 +67,7 @@ const page = () => {
 
             </p>
             <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=">
-              <button className="bg-[#FE7501] text-white px-6 text-sm py-3  rounded-lg  hover:bg-green-600 transition duration-200 font-Poppins">Download For Windows</button>
+              <button className="bg-[#FE7501] text-white px-6 text-sm py-3  rounded-lg  hover:bg-green-600 transition duration-200 font-Poppins">Download For IOS</button>
             </a>
           </div>
           <div className="flex justify-center">
@@ -81,7 +81,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section id='and' className="  flex items-center justify-center bg-[#202938] lg:mt-24 ">
+      <section id='and' className="  flex items-center justify-center bg-[#202938]  mb-4">
         <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center gap-'>
           <div className="flex justify-center">
             <Image
@@ -100,7 +100,7 @@ const page = () => {
 
             </p>
             <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=KaizenMarkets-Live">
-              <button className="bg-[#FE7501] text-white px-6 text-sm py-3  rounded-lg  hover:bg-green-600 transition duration-200 font-Poppins">Download For Windows</button>
+              <button className="bg-[#FE7501] text-white px-6 text-sm py-3  rounded-lg  hover:bg-green-600 transition duration-200 font-Poppins">Download For Android</button>
             </a>
           </div>
         </div>
