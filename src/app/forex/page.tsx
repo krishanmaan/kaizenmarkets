@@ -53,7 +53,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="bg-cover bg-center bg-gray-900 pt-20 pb-20 flex flex-col items-center justify-center -mb-16 ">
+      <div className="bg-cover bg-center bg-gray-900 pt-20 pb-20 flex flex-col items-center justify-center -mb-24 ">
         <div className="text-center text-white max-w-screen-xl">
           <p className="text-xl sm:text-2xl mb-8 font-Poppins text-gray-100">Kaizen Markets Trading Advantages</p>
         </div>
@@ -92,11 +92,11 @@ const Page = () => {
         </div>
       </div>
 
+      <div className='-mb-20'>
       <Costs />
-      <div className='mb-10'>
 
-        <StartTradingPage />
       </div>
+        <StartTradingPage />
       <Footor />
     </div>
   );
