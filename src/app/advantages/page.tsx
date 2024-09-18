@@ -24,7 +24,7 @@ const Page: React.FC<PageProps> = () => {
             </nav>
           </div>
           <div>
-            <Image
+            <img
               src='https://firebasestorage.googleapis.com/v0/b/my-portfolio-1450c.appspot.com/o/img%2Fone.png?alt=media&token=ecf13fb1-bc10-4c3a-9143-ac8f24ca0a1a'
               alt="Forex Illustration"
               className="max-w-full h-auto"
