@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import StartTradingPage from '../components/StartTradingPage';
 import Footor from '../components/Footor';
-import one from '../../../public/img/one.png';
 import phone from '../../../public/img/crop-ios2.png';
 
 interface PageProps { }
@@ -25,7 +24,7 @@ const Page: React.FC<PageProps> = () => {
           </div>
           <div>
             <Image
-              src={one.src}
+              src="https://sh001.bigrock.com:2083/cpsess4108216381/viewer/home4%2fkaize6gp%2fimg/one.png"
               alt="Forex Illustration"
               className="max-w-full h-auto"
               width={500}
