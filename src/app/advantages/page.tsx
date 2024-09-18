@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import StartTradingPage from '../components/StartTradingPage';
 import Footor from '../components/Footor';
+import one from '../../../public/img/one.png';
 import phone from '../../../public/img/crop-ios2.png';
 
 interface PageProps { }
@@ -23,18 +24,13 @@ const Page: React.FC<PageProps> = () => {
             </nav>
           </div>
           <div>
-            <img src="https://sh001.bigrock.com:2083/cpsess4108216381/viewer/home4%2fkaize6gp%2fimg/one.png"
-              alt="Forex Illustration"
-              className="max-w-full h-auto"
-              width={500}
-              height={300} />
-            {/* <Image
-              src="https://sh001.bigrock.com:2083/cpsess4108216381/viewer/home4%2fkaize6gp%2fimg/one.png"
+            <Image
+              src='https://firebasestorage.googleapis.com/v0/b/my-portfolio-1450c.appspot.com/o/img%2Fone.png?alt=media&token=ecf13fb1-bc10-4c3a-9143-ac8f24ca0a1a'
               alt="Forex Illustration"
               className="max-w-full h-auto"
               width={500}
               height={300}
-            /> */}
+            />
           </div>
         </div>
       </div>
@@ -93,11 +89,11 @@ const Page: React.FC<PageProps> = () => {
                 'Affiliate Tools',
                 'Marketing Tools',
                 'Hybrid and CPA Commissions Plan',
-
+                
               ].map((item, index) => (
                 <div className="flex items-start text-xs" key={index}>
                   <div className="bg-[#FE7501] rounded-full w-[20px] h-[20px] flex items-center justify-center text-white font-bold text-xs mr-4 flex-shrink-0">
-                    {index + 1}
+                    {index + 1  }
                   </div>
                   <p className="flex-1">{item}</p>
                 </div>
@@ -111,7 +107,7 @@ const Page: React.FC<PageProps> = () => {
                 'Free Education Video and Tutorials',
                 'Monthly Contest',
                 '24/7 Support',
-
+                
               ].map((item, index) => (
                 <div className="flex items-start text-xs" key={index + 8}>
                   <div className="bg-[#FE7501] rounded-full w-[20px] h-[20px] flex items-center justify-center text-white font-bold text-xs mr-4 flex-shrink-0">
