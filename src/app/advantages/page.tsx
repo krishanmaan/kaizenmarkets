@@ -23,13 +23,18 @@ const Page: React.FC<PageProps> = () => {
             </nav>
           </div>
           <div>
-            <Image
+            <img src="https://sh001.bigrock.com:2083/cpsess4108216381/viewer/home4%2fkaize6gp%2fimg/one.png"
+              alt="Forex Illustration"
+              className="max-w-full h-auto"
+              width={500}
+              height={300} />
+            {/* <Image
               src="https://sh001.bigrock.com:2083/cpsess4108216381/viewer/home4%2fkaize6gp%2fimg/one.png"
               alt="Forex Illustration"
               className="max-w-full h-auto"
               width={500}
               height={300}
-            />
+            /> */}
           </div>
         </div>
       </div>
@@ -88,11 +93,11 @@ const Page: React.FC<PageProps> = () => {
                 'Affiliate Tools',
                 'Marketing Tools',
                 'Hybrid and CPA Commissions Plan',
-                
+
               ].map((item, index) => (
                 <div className="flex items-start text-xs" key={index}>
                   <div className="bg-[#FE7501] rounded-full w-[20px] h-[20px] flex items-center justify-center text-white font-bold text-xs mr-4 flex-shrink-0">
-                    {index + 1  }
+                    {index + 1}
                   </div>
                   <p className="flex-1">{item}</p>
                 </div>
@@ -106,7 +111,7 @@ const Page: React.FC<PageProps> = () => {
                 'Free Education Video and Tutorials',
                 'Monthly Contest',
                 '24/7 Support',
-                
+
               ].map((item, index) => (
                 <div className="flex items-start text-xs" key={index + 8}>
                   <div className="bg-[#FE7501] rounded-full w-[20px] h-[20px] flex items-center justify-center text-white font-bold text-xs mr-4 flex-shrink-0">
