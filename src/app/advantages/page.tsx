@@ -122,7 +122,7 @@ const Page: React.FC<PageProps> = () => {
 
         {/* Image Content */}
         <div className="md:w-1/2 flex justify-center mt-12 md:mt-0">
-          <Image
+          <img
             src={phone.src}
             alt="Trading Platforms"
             width={400}

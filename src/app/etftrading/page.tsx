@@ -22,7 +22,7 @@ const Page = () => {
             </nav>
           </div>
           <div className="w-full md:w-auto">
-            <Image
+            <img
               src={one.src}
               alt="Forex Illustration"
               className="max-w-full h-auto"

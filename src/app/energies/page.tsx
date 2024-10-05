@@ -21,7 +21,7 @@ const page = () => {
             </nav>
           </div>
           <div>
-            <Image
+            <img
               src={one.src}
               alt="Forex Illustration"
               className="max-w-full h-auto"

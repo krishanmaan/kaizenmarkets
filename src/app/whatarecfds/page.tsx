@@ -22,7 +22,7 @@ const page = () => {
             </nav>
           </div>
           <div>
-            <Image
+            <img
               src={one.src}
               alt="Forex Illustration"
               className="max-w-full h-auto"
@@ -73,7 +73,7 @@ const page = () => {
           </div>
           {/* Image Content */}
           <div className="md:w-1/2 flex justify-center mt-12 md:mt-0">
-            <Image
+            <img
               src={phone.src}
               alt="Trading Platforms"
               width={400}

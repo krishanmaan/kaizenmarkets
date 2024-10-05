@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import slider1 from "../../../public/img/bg/slider1.jpg";
 import slider2 from "../../../public/img/bg/slider2.jpg";
 import slider3 from "../../../public/img/bg/slider3.jpg";
@@ -13,26 +12,27 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 const Hero: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
+
   const slides = [
     {
-      image: slider1,
+      image: "/img/bg/slider1.jpg", // Reference image directly from the public folder
       heading: "Trade Smarter With Kaizen Markets",
       description: "Unlock smarter Forex trading strategies with Kaizen Markets for optimal results.",
     },
     {
-      image: slider2,
-      heading: "Fastest way to Investing & Trading In Forex",
+      image: "/img/bg/slider2.jpg",
+      heading: "Fastest way to Investing & Trading In Forex",
       description: "Experience rapid Forex trading and investing with the fastest platform available.",
     },
     {
-      image: slider3,
+      image: "/img/bg/slider3.jpg",
       heading: "Join the Forex Revolution",
       description: "Be part of the Forex revolution—innovative trading solutions await you.",
     },
     {
-      image: slider4,
+      image: "/img/bg/slider4.jpg",
       heading: "Love at First Trade",
-      description: "instant connection, sharp insights, and smart trades. Experience love at first trade!",
+      description: "Instant connection, sharp insights, and smart trades. Experience love at first trade!",
     },
   ];
 
@@ -44,6 +44,7 @@ const Hero: React.FC = () => {
     return () => clearInterval(interval);
   }, [slides.length]);
 
+
   const handlePrevSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide === 0 ? slides.length - 1 : prevSlide - 1));
   };
@@ -51,7 +52,7 @@ const Hero: React.FC = () => {
   const handleNextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
   };
-
+  
   return (
     <div className="">
       {/* Hero Section */}
@@ -62,12 +63,11 @@ const Hero: React.FC = () => {
           <div className="absolute inset-0 flex transition-transform duration-1000 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
             {slides.map((slide, index) => (
               <div key={index} className="w-full h-full relative flex-shrink-0">
-                <Image
+                <img
                   src={slide.image}
                   alt={`Slide ${index + 1}`}
-                  layout="fill"
-                  objectFit="cover"
-                  style={{ opacity: 0.9 }} 
+                  className="w-full h-full object-cover"
+                  style={{ opacity: 0.9 }}
                 />
               </div>
             ))}

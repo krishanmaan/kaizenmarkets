@@ -5,7 +5,7 @@ const Certificate = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-white">
       <h1 className="text-4xl font-extrabold  mt-10 font-Poppins">Certificate</h1>
-      <Image
+      <img
         src={certificate.src}
         alt="Forex Illustration"
         className="max-w-full h-auto mb-4"

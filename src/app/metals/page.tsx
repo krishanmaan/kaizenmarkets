@@ -20,13 +20,13 @@ const Page: React.FC = () => {
             </nav>
           </div>
           <div className="mt-6 sm:mt-0">
-            <Image
+            <img
               src={one.src}
               alt="Forex Illustration"
               className="max-w-full h-auto"
               width={500}  // Image width
               height={300} // Image height
-              priority
+            
             />
           </div>
         </div>

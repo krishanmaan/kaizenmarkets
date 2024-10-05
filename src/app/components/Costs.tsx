@@ -8,7 +8,7 @@ const Costs = () => {
         <section className="  flex items-center justify-center bg-[#202938] lg:mt-24 lg:mb-10 ">
             <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center gap-'>
                 <div className="flex justify-center">
-                    <Image
+                    <img
                         src={money.src}
                         alt="money"
                         width={500}

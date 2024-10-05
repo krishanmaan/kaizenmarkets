@@ -23,14 +23,14 @@ const Page = () => {
                         </nav>
                     </div>
                     <div className="mt-6 sm:mt-0">
-                        <Image
+                        <img
                             src={one.src}
                             alt="Forex Illustration"
                             className="max-w-full h-auto"
                             width={400}
                             height={240}
-                            layout="responsive"
-                            priority
+                        
+                            
                         />
                     </div>
                 </div>

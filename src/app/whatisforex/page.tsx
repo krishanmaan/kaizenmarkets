@@ -22,7 +22,7 @@ export default function Home() {
               </nav>
             </div>
             <div className="flex justify-center">
-              <Image
+              <img
                 src={one.src}
                 alt="Forex Illustration"
                 className="max-w-full h-auto rounded-lg"

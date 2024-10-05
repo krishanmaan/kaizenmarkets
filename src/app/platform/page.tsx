@@ -24,7 +24,7 @@ const page = () => {
             </nav>
           </div>
           <div>
-            <Image
+            <img
               src={one.src}
               alt="Forex Illustration"
               className="max-w-full h-auto"
@@ -37,7 +37,7 @@ const page = () => {
       <section id='windows' className="  flex items-center justify-center bg-[#202938]  py-16">
         <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center  '>
           <div className="flex justify-center">
-            <Image
+            <img
               src={win.src}
               alt="money"
               width={200}
@@ -71,7 +71,7 @@ const page = () => {
             </a>
           </div>
           <div className="flex justify-center">
-            <Image
+            <img
               src={ios.src}
               alt="money"
               width={200}
@@ -84,7 +84,7 @@ const page = () => {
       <section id='and' className="  flex items-center justify-center bg-[#202938]  mb-16 py-16">
         <div className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center gap-'>
           <div className="flex justify-center">
-            <Image
+            <img
               src={and.src}
               alt="money"
               width={200}

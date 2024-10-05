@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/">
             <div className="text-2xl font-bold text-yellow-600">
-              <Image
+              <img
                 src={logo.src}
                 alt="Forex Illustration"
                 className="max-w-full h-auto"

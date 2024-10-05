@@ -21,7 +21,7 @@ const StartTradingPage: React.FC = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 p-6 gap-2 mb-4 max-w-screen-xl mx-auto">
                 <div className="bg-[#111827] text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center border">
-                    <Image
+                    <img
                         src={ic1.src}
                         alt="Forex Illustration"
                         className="max-w-full h-auto  mb-4"
@@ -33,7 +33,7 @@ const StartTradingPage: React.FC = () => {
                 </div>
 
                 <div className="bg-[#111827] text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center border">
-                    <Image
+                    <img
                         src={ic2.src}
                         alt="Forex Illustration"
                         className="max-w-full h-auto  mb-4"
@@ -45,7 +45,7 @@ const StartTradingPage: React.FC = () => {
                 </div>
 
                 <div className="bg-[#111827] text-white p-6 shadow-lg text-center hover:bg-green-600 transition duration-200 rounded-lg flex flex-col items-center border">
-                    <Image
+                    <img
                         src={ic3.src}
                         alt="Forex Illustration"
                         className="max-w-full h-auto  mb-4"

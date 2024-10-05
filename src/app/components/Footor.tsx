@@ -82,7 +82,7 @@ const Footor = () => {
                     <div className="-mx-4 flex flex-wrap justify-between">
                         <div className="px-4 my-4 w-full xl:w-1/5">
                             <a href="/" className="block w-56 ">
-                                <Image
+                                <img
                                     src={logo.src}
                                     alt="Logo"
                                     width={250}
